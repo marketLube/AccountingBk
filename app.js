@@ -64,7 +64,7 @@ app.use(
 app.use(compression({ threshold: 512 }));
 
 const allowedOrigins = [
-  "https://accounting-frontend-gules.vercel.app",
+  "https://accounting-frontend-chi.vercel.app",
   "http://localhost:5173",
 ];
 
@@ -94,7 +94,7 @@ app.use(cors(corsOptions));
 // Custom CORS headers (if needed)
 app.use((req, res, next) => {
   const allowedOrigins = [
-    "https://accounting-frontend-gules.vercel.app",
+    "https://accounting-frontend-chi.vercel.app",
     "http://localhost:5173",
   ];
 
