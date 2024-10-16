@@ -11,9 +11,9 @@ const branchSchema = mongoose.Schema(
       type: Number,
       default: 0,
     },
-    Fidhal: {
+    Fidal: {
       type: Number,
-      required: [true, "Need to mention Fidhal Bank balance"],
+      required: [true, "Need to mention Fidal Bank balance"],
     },
     Althameem: {
       type: Number,
@@ -41,7 +41,7 @@ const branchSchema = mongoose.Schema(
 
 branchSchema.pre("save", function (next) {
   this.balance =
-    this.CASH + this.Axis + this.Others + this.Althamem + this.Fidhal;
+    this.CASH + this.Axis + this.Others + this.Althamem + this.Fidal;
   next();
 });
 
