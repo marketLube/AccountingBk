@@ -6,15 +6,7 @@ const eventSchema = mongoose.Schema(
   {
     branchName: {
       type: String,
-      enum: [
-        "Kozhikode",
-        "Kochi",
-        "Kannur",
-        "Corporate",
-        "Manjeri",
-        "Directors",
-        "Kottayam",
-      ],
+      enum: ["Market Lube", "Web Lube", "Hiline"],
       required: [true, "Branch name is required for event"],
     },
     name: {
