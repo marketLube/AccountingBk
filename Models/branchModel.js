@@ -4,7 +4,7 @@ const branchSchema = mongoose.Schema(
   {
     name: {
       type: String,
-      enum: ["Market Lube", "Web Lube", "Hiline"],
+      enum: ["Market Lube", "Web Lube", "Hiline", "Mallu Flicks"],
       required: [true, "Branch must have a name"],
     },
     balance: {

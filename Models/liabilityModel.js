@@ -60,7 +60,7 @@ const liabilitySchema = mongoose.Schema(
         },
         branchName: {
           type: String,
-          enum: ["Market Lube", "Web Lube", "Hiline"],
+          enum: ["Market Lube", "Web Lube", "Hiline", "Mallu Flicks"],
           required: [true, "Branch must have a name"],
         },
       },
