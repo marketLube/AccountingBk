@@ -1,4 +1,4 @@
-const getBranches = ["Kozhikode", "Kottayam", "Kochi", "Manjeri", "Kannur"];
+const branchesList = ["Market Lube", "Web Lube", "Hiline", "Mallu Flicks"];
 const getBankAccounts = ["RBI", "ICICI", "RAK", "HDFC"];
 
-module.exports = { getBranches, getBankAccounts };
+module.exports = { branchesList, getBankAccounts };
